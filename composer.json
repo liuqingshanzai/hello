@@ -1,0 +1,14 @@
+{
+    "name": "jacklove369/hello",
+    "description": "test hello",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload":{ 
+	"psr-4":{
+		"Hello\\Library\\":"src/Hello/Library"
+	}
+    }
+}
